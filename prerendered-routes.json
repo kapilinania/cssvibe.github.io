@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/",
+    "/about",
+    "/border",
+    "/border-radius",
+    "/box-shadow",
+    "/contact-us",
+    "/login"
+  ]
+}

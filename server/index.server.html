@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>css vibe</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/image/favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://c.webfontfree.com/c.js?f=Rajasthan-Regular" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles-VSIKCWVT.css"></head>
+<body>
+  <app-root></app-root>
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    // Get the button element
+const backToTopBtn = document.getElementById('backToTopBtn');
+
+// Add event listener for button click
+backToTopBtn.addEventListener('click', function() {
+    // Scroll smoothly to the top of the page
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+  </script>
+
+<script> 
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwp7a-cJAPfS4fygkd3vTJ37mq5ZHYowXp4d8fsqVUCBLPWPn0H6DwlrjVozSokPPBp/exec' 
+  const form = document.forms['submit-to-google-sheet'] 
+ 
+  form.addEventListener('submit', e => { 
+    e.preventDefault() 
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)}) 
+      .then(response => console.log('Success!', response)) 
+      .catch(error => console.error('Error!', error.message)) 
+
+      window.alert("Data Submitted Successfully")
+    window.location.reload();
+  });
+</script>
+<script src="polyfills-RT5I6R6G.js" type="module"></script><script src="main-OZZMRIGJ.js" type="module"></script></body>
+</html>
